@@ -1,0 +1,8 @@
+a=int(input("valeur_de_a"))
+b=int(input("valeur_de_b"))
+
+
+for x in range (0,10):
+    c=a*x+b
+    print(a,"x",x,"+",b,"=",c)
+    
