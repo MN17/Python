@@ -1,0 +1,21 @@
+#cette fonction calcule la fonction affine c=a*x+b
+#entré : x représente la variable de la fonction , a représente le coefficient directeur et b le décalage de la courbe représentative sur l'axe des ordonné
+#sortie : y un nombre réel image de x
+
+def Entrée():
+    a=int(input("valeur_de_a"))
+    b=int(input("valeur_de_b"))
+    return a,b
+def Métier():
+        c=a*x+b
+        return c,x
+def Sortie():
+    print(a,"x",x,"+",b,"=",c)
+
+a,b=Entrée()
+for x in range (0,10):
+    c=Métier()
+    Sortie()
+
+
+
