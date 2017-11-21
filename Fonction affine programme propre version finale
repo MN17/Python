@@ -1,0 +1,23 @@
+#Cette fonction permet d'insérer les variables a et b
+
+def entre():
+    a=int(input("valeur_de_a"))
+    b=int(input("valeur_de_b"))
+    return a,b
+#cette fonction calcule la fonction affine c=a*x+b
+#entré : x représente la variable de la fonction , a représente le coefficient directeur et b le décalage de la courbe représentative sur l'axe des ordonné
+#sortie : y un nombre réel image de x
+def metier():
+        c=a*x+b
+        return c,x
+#Cette fonction affiche les sorties
+def sortie():
+    print(a,"x",x,"+",b,"=",c)
+
+a,b=entre()
+for x in range (0,10):
+    c= metier()
+    sortie()
+
+
+
